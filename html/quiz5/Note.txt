@@ -1,0 +1,10 @@
+Differnces:
+1. The arrows are hidden in Chrome for the Age and visible in Firefox
+2. The calender logo hidden in Firefox and visible in Chrome
+3. Submit button shows Chrome: submit & Firefox: submit query
+4. Date is represented with dotts in Chrome and slashes in Firefox.
+5. Color Ballettes are different in both.
+
+Similarities:
+1. Similar layouts.
+2. Font family/size.
