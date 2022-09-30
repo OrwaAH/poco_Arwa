@@ -1,0 +1,31 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+* {
+    margin: 0;
+}
+
+header {
+    background-color: bisque;
+    padding: 1rem;
+}
+
+main {
+    padding: 1rem;
+}
+
+main p {
+    padding: 4rem;
+}
+
+footer {
+    background-color: aqua;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
