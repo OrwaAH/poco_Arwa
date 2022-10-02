@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-/* Custom Properties, update these for your own design */
-
 :root {
     --ff-primary: 'Lora', serif;
     --ff-secondary: 'Roboto Slab', serif;
@@ -14,7 +12,7 @@
     --fw-bold: 700;
     
     --clr-light: #fff;
-    --clr-dark: #303030;
+    --clr-dark: #258e89;
     --clr-accent: #f0e13af3;
     
     --fs-h1: 3rem;
@@ -36,8 +34,6 @@
 }
 
 /* General styles */
-
-/* endable this to add smooth scrolling */
 html {
     scroll-behavior: smooth;
 }
@@ -59,6 +55,9 @@ section {
 img {
     display: block;
     max-width: 100%;
+}
+#logoStyle {
+    max-width: 280%;
 }
 
 strong { font-weight: var(--fw-bold) }
@@ -213,11 +212,6 @@ header {
     opacity: 0;
 }
 
-
-
-
-
-
 .hamburger {
     display: block;
     position: relative;
@@ -298,7 +292,6 @@ header {
     background-color: var(--clr-dark);
     background-image: url(../img/services-bg.jpg);
     background-size: cover;
-    /* background-blend-mode: multiply; */
     color: var(--clr-light);
     text-align: center;
 }
@@ -396,7 +389,7 @@ header {
 }
 
 .portfolio__item {
-    background: var(--clr-accent);
+    background: var(--clr-dark);
     overflow: hidden;
 }
 
