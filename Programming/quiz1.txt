@@ -1,0 +1,16 @@
+What is the amount of the bill?
+What's the tip rate?
+let initially: bill= 0;
+tip rate=0;
+tip amount= 0;
+total= 0;
+both tip amount & Total shoud be rounded to the nearest 5 cents (No 1 cent coin in CH)
+
+input= number
+tip rate= percentage (tip rate/100)
+tip amount= number * percentage
+Total= number + tip amount
+
+Print:
+Tip amount+" CHF"
+Total+"CHF"
