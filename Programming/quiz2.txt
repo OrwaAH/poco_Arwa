@@ -1,0 +1,20 @@
+-Questions?
+What is the name?
+Should be in Letters All.
+lowercase, UPPERCASE, Capitalize
+-------------------------
+-Edge and Corner cases:
+Not Letters ==> 
+                Error Message:
+                Print a message:"Please write your name in letter only, no numbers or signs!"
+----------------------------------------------------------------------------------------------
+-Input:
+name in letter
+then capitalize
+-----------------
+-Output:
+convert the name to be capitalized (fist letter). 
+name.capitalize() ==> Name
+----------------------------------
+-Print:
+"Hello "+ Name,+" Welcome Back!"

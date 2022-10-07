@@ -1,16 +1,25 @@
+-Questions?
 What is the amount of the bill?
 What's the tip rate?
-let initially: bill= 0;
+let initially: 
+bill= 0;
 tip rate=0;
 tip amount= 0;
 total= 0;
+All numbers
 both tip amount & Total shoud be rounded to the nearest 5 cents (No 1 cent coin in CH)
-
-input= number
-tip rate= percentage (tip rate/100)
+convert:
+BilAmount & TipRate to number
+--------------------------------------------------------------------------------------------
+-Input= number
+Bill, 
+tip rate= percentage (tip rate/100),
+-------------------------------------------
+-Output:
 tip amount= number * percentage
 Total= number + tip amount
-
-Print:
+round TipAmount & Total to 5 cents.
+-------------------------------------------
+-Print:
 Tip amount+" CHF"
-Total+"CHF"
+Bill Amount= Total+" CHF"
