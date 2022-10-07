@@ -1,0 +1,23 @@
+Counting the number of characters:
+Create a program that prompts for an input string and displays output that shows 
+the input string and the number of characters the string contains.
+---------------------------------------------------------------------------------
+-Quistions:
+What kind of input: numbers, letters or string?
+Answer = {String}
+-------------------------------------------------
+-Edge and Corner cases:
+Not string ==>
+                Error Message: "Please insert your input in a string format!"
+                or we could stringfy the input as in Javascript using: JSON.stringify()
+----------------------------------------------------------------------------------------
+-Input:
+Letters, Numbers or directly a string
+in case not a string, we convert it to a string ==> JSON.stringify()
+-----------------------------------------------------------------------
+-Output:
+String = {}
+Message = String.length ==>(Will be a number)
+------------------------------------------------
+-Print:
+String + " The number of characters= "+ Message+ "."

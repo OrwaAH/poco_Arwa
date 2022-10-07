@@ -1,3 +1,6 @@
+Say hello:
+Create a program that prompts for your name and prints a greeting using your name.
+-----------------------------------------------------------------------------------
 -Questions?
 What is the name?
 Should be in Letters All.
