@@ -13,7 +13,7 @@
     
     --clr-light: #fff;
     --clr-dark: #141f4b;
-    --clr-accent: #f5d830f3;
+    --clr-accent: #f9bf00f3;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -466,4 +466,10 @@ header {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+}
+
+#blog {
+    color: var(--clr-accent);
+    text-decoration: none;
+    font-weight: bold;
 }
