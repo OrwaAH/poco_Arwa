@@ -1,0 +1,235 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "firNm": "Bilal",
+            "secNm": "Suleiman",
+            "age": 28,
+            "country": "Afghanistan",
+            "thiNm": "Nickname: Survivor",
+            "eyeClr": "Black Eyes"
+        },
+        
+        {
+            "id": 2,
+            "firNm": "Ismet",
+            "secNm": "Bakay",
+            "age": 38,
+            "country": "Turkey",
+            "thiNm": "NickName: Smiley Face",
+            "eyeClr": "Black Eyes"
+        },
+        
+        {
+            "id": 3,
+            "firNm": "Abdul Fatah",
+            "secNm": "Sheirar",
+            "age": 33,
+            "country": "Afghanistan",
+            "thiNm": "Nickname: Friendly Guy",
+            "eyeClr": "Black Eyes"
+        },
+        
+        {
+            "id": 4,
+            "firNm": "Yulia",
+            "secNm": "Kuts",
+            "age": 42,
+            "country": "Ukraine",
+            "thiNm": "Nickname: The Quiete",
+            "eyeClr": "Eye Color: Noisette"
+        },
+        
+        {
+            "id": 5,
+            "firNm": "Oguz",
+            "secNm": "Yildiz",
+            "age": 37,
+            "country": "Turkey",
+            "thiNm": "Nickname: The Professional",
+            "eyeClr": "Black Eyes"
+        },
+        
+        {
+            "id": 6,
+            "firNm": "Emin",
+            "secNm": "Samid",
+            "age": 35,
+            "country": "Turkey",
+            "thiNm": "Nickname: The guy next door!",
+            "eyeClr": "Black Eyes"
+        },
+        
+        {
+            "id": 7,
+            "firNm": "Enes",
+            "secNm": "Bora",
+            "age": 38,
+            "country": "Turkey",
+            "thiNm": "Nickname: The Cool Teacher",
+            "eyeClr": "Green Eyes"
+        },
+        
+        {
+            "id": 8,
+            "firNm": "Serkan",
+            "secNm": "Tasgin",
+            "age": 45,
+            "country": "Turkey",
+            "thiNm": "Nickname: The Prof.",
+            "eyeClr": "Black Eyes"
+        },
+        
+         {
+            "id": 9,
+            "firNm": "Jyothi",
+            "secNm": "Jogin",
+            "age": 35,
+            "country": "India",
+            "eyeClr": "Black Eyes"
+        },
+        
+         {
+            "id": 10,
+            "firNm": "Olena",
+            "secNm": "Smetiuk",
+            "age": 39,
+            "country": "Ukraine",
+            "eyeClr": "Green Eyes"
+        },
+        
+         {
+            "id": 11,
+            "firNm": "Ari",
+            "secNm": "Ni Luh",
+            "age": 35,
+            "country": "Indonesia",
+            "thiNm": "Nickname: The Helper",
+            "eyeClr": "Black Eyes"
+        },
+        
+         {
+            "id": 12,
+            "firNm": "Sadettin",
+            "secNm": "Karatas",
+            "age": 34,
+            "country": "Turkey",
+            "thiNm": "Nickname: The Strong",
+            "eyeClr": "Black Eyes"
+        },
+        
+         {
+            "id": 13,
+            "firNm": "Shamil",
+            "secNm": "Idrrisov",
+            "age": 51,
+            "country": "Russia",
+            "eyeClr": "Black Eyes"
+        },
+        
+         {
+            "id": 14,
+            "firNm": "Fatih",
+            "secNm": "Yavuz",
+            "age": 33,
+            "country": "Turkey",
+            "thiNm": "Nickname: Hard Worker",
+            "eyeClr": "Eye Color: Noisette"
+        },
+        
+         {
+            "id": 15,
+            "firNm": "Baris",
+            "secNm": "Durucan",
+            "age": 45,
+            "country": "Turkey",
+            "thiNm": "Nickname: Mr.The General",
+            "eyeClr": "Eye Color: Noisette"
+        },
+        
+         {
+            "id": 16,  
+            "firNm": "Murat",
+            "secNm": "Güldibi",
+            "age": 33,
+            "country": "Turkey",
+            "thiNm": "Nickname: The Polite",
+            "eyeClr": "Eye Color: Noisette"
+        },
+        
+         {
+            "id": 17,
+            "firNm": "Sevim",
+            "secNm": "Gokturk",
+            "age": 40,
+            "country": "Turkey",
+            "thiNm": "Nickname: The Nice",
+            "eyeClr": "Black Eyes"
+        },
+        
+         {
+            "id": 18,
+            "firNm": "Senay",
+            "secNm": "Atli",
+            "age": 35,
+            "country": "Turkey",
+            "thiNm": "Nickname: Fighter",
+            "eyeClr": "Eye Color: Noisette"
+        },
+        
+         {
+            "id": 19,
+            "firNm": "Arwa",
+            "secNm": "Alhussein",
+            "age": 42,
+            "country": "Syria",
+            "eyeClr": "Eye Color: Brown"
+        },
+        
+         {
+            "id": 20,
+            "firNm": "Ali",
+            "secNm": "Göcmen",
+            "age": 35,
+            "country": "Turkey",
+            "eyeClr": "Eye Color: Green"
+        },
+        
+         {
+            "id": 21,
+            "firNm": "Tuba",
+            "secNm": "Karaca",
+            "age": 37,
+            "country": "Turkey"
+        },
+        
+         {
+            "id": 22,
+            "firNm": "Hasan",
+            "secNm": "Danaci",
+            "age": 41,
+            "country": "Turkey",
+            "thiNm": "Nickname: The Wise",
+            "eyeClr": "Eyes Color: Noisete"
+        },
+        
+         {
+            "id": 23,
+            "firNm": "Yusuf",
+            "secNm": "Ilhan",
+            "age": 38,
+            "country": "Turkey",
+            "thiNm": "Nickname: Cool & Smiley",
+            "eyeClr": "Eyes Color: Noisette"
+        },
+        
+         {
+            "id": 24,
+            "firNm": "Mustafa",
+            "secNm": "Konya",
+            "age": 32,
+            "country": "Turkey",
+            "eyeClr": "Black Eyes"
+        }
+    ]
+}
