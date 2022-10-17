@@ -1,0 +1,25 @@
+Input:
+............................................................................................
+Declare the variables:
+
+    - Full Name: as a prompt (Insert your Full Name) ---> Should be a text;
+    - Birth Year as a prompt (Insert your Birth Year) ---> Should be four numbers(as a year);
+    - Desirable Retirement Age as a prompt (Insert your Desirable Retirement Age) ---> Should be a number;
+        
+Process:
+............................................................................................
+    
+    - Current year by using : curYear = new Date().getFullYear() function;
+    - Calculate the Current Age: curAge = curYear - brthYear;
+    - Calculate the Remaining Years: remaiYears = retirAge - curAge;
+    - Calculate the Retirement Year: retirYear = curYear + remaiYears;
+    - Use a function as a program to calculate and print a message with all the available inputs:
+        + In case (remaiYears == 0)  ==>
+            document.write(`Hello ${fullName}, you are now ${curAge} years old, and you will retire this year ${curYear}. As like you prefered to retire at ${retirAge}, we wish a comfortable and peceful one. Good luck!`);
+        + The Other Option:
+            document.write(`Hello ${fullName}, it is ${curYear} and you're still ${curAge} years old. As per your choice to retire at ${retirAge}, you still have ${remaiYears} year tilll you retire as estimated in ${retirYear}. Keep it up!`);
+
+Output:
+............................................................................................
+
+- Call: The function of the retirEstimation();

@@ -1,0 +1,35 @@
+Input:
+............................................................................................
+1. Declare four variables:
+    arbLanguage = "ar";
+    frLanguage = "fr";
+    grLanguage = "de";
+    chosenLan;
+
+2. Ask to input and choose a language with one the choices of the variables ( if not: will print option 4 in the Process)
+
+3. We will use chosen language code as an argument to our prgram function.
+
+Process:
+............................................................................................
+Program the greeting translator as a function with an argument equal to our input choices
+  as like as greetingTranslator(chosenLan):
+
+1. If (chosenLan == "ar"):
+    Log out: "مرحبا بالعالم";
+
+2. If (chosenLan == "fr"):
+    Log out: "Bonjour le monde";
+    
+3. If (chosenLan == "de");
+    Log out: "Hallo Welt";
+
+4. If (chosenLan == "sp");
+    Log out: "Hola Mundo";
+
+5.If non of the varaible choises are inserted in the input:
+    Log out: "Hello World";
+
+Output:
+............................................................................................
+Call: The function of the greetingTranslator 

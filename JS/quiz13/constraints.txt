@@ -1,0 +1,12 @@
+The Constraints:
+
+- In case the Full Name input is not a text:
+     Print an Errormessage "Please enter a text":
+
+-In case the Birth Year & the Desirable Retirement Age are not numbers
+
+        - To be sure that the inputs are numbers: We use the isNAN() function to check if the 
+            input is number which will be nested inside another function that we will call in while loop.
+        - Use While loop first to be sure that the prompt will keep looping till there is a number 
+            in the input and we call the functions of the first step, and while looping check also
+            if there are (four for the brthYear) and (Two for the retirAge).

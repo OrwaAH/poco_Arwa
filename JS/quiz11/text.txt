@@ -1,0 +1,30 @@
+Input:
+............................................................................................
+1. Declare two variables:
+    x (number);
+    y (number);
+
+2. They should be numbers, if not: Print an Errormessage "Please enter a valid numbers:.
+
+        - While loop first to be sure that the prompt will keep looping till there is a number 
+            in the input and we call the functions in the next step.
+        - To be sure that the inputs are numbers: We use the isNAN() function to check if the 
+            input is number that will be nested inside the function that we called in while loop.
+
+3. We will use the inputs as arguments to our program function (Comparison program).
+
+Process:
+............................................................................................
+Program our comparison as a function with two arguments which are the input variables 
+numComparison(x,y):
+
+1. In case x greater than y:
+    Log out: " The greater number of x and y is x";
+    
+2. If not:
+    Log out: " The smallest number of x and y is y";
+
+Output:
+............................................................................................
+Call: The function of the Comparison result: 
+numComparison(x,y);
