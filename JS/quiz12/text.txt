@@ -6,7 +6,7 @@ Input:
     grLanguage = "de";
     chosenLan;
 
-2. Ask to input and choose a language with one the choices of the variables ( if not: will print option 4 in the Process)
+2. Ask to input and choose a language with one the choices of the variables ( if not: will print option 5 in the Process)
 
 3. We will use chosen language code as an argument to our prgram function.
 
