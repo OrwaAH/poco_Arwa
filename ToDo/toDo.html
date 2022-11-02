@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List with API</title>
+</head>
+<body>
+    <input type="text" id="textField">
+    <button onclick="addToDoItem()">Add ToDo</button>
+    <style>
+        input[type=checkbox]:checked + label {
+            color: green;
+            text-decoration: line-through;
+   }
+    ul {
+        border: 2px solid black;
+        background-color: beige;
+        font-family: sans-serif;
+        display: flex;
+        flex-direction: column;
+        line-height: 2.3em;
+        padding-left: 0;
+        align-items: center;
+        
+    }
+    li {
+        list-style-type: none;
+        
+    }
+    </style>
+    <script>
+
+        let todos = [];
+        let textField = document.getElementById("textField");
+        let ul = document.createElement("ul");
+        document.body.appendChild(ul);
+
+        // Load all todos
+        load();
+
+        // fetch("https://jsonplaceholder.typicode.com/todos")
+        //     .then(response => response.json())
+        //     .then(data => refreshList(data));
+
+        function save() {
+            let jasonInfo = JSON.stringify(todos);
+            localStorage.setItem('savedTodos', jasonInfo);
+        }
+
+        function load() {
+            let jasonInfo = localStorage.getItem('savedTodos');
+            if (jasonInfo == null){
+                return
+            };
+            todos = JSON.parse(jasonInfo);
+            refreshList();
+        }
+
+        function refreshList() {
+            ul.innerHTML = "";
+            for (let i = 0; i < todos.length; i++) {
+                let todo = todos[i]
+                let li = document.createElement("li")
+                li.innerHTML = `<input type="checkbox" onclick="toDoToggled(${i})" ${todo.completed ? "checked" : ""} ><label> ${todo.title}</label>`
+                ul.appendChild(li)
+            }
+        }
+
+        function addToDoItem() {
+            let newItem = {
+                title: textField.value,
+                completed: false,
+            }
+            todos.push(newItem);
+            refreshList();
+            save();
+        }
+
+        function toDoToggled(todoIndex) {
+            todos[todoIndex].completed = ! todos[todoIndex].completed;
+            refreshList();
+            save();
+        }
+
+    </script>
+</body>
+</html>
