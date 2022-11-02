@@ -9,26 +9,27 @@
 <body>
     <input type="text" id="textField">
     <button onclick="addToDoItem()">Add ToDo</button>
+    <button onclick="deleteCompleted()">Delete Completed</button>
     <style>
         input[type=checkbox]:checked + label {
             color: green;
             text-decoration: line-through;
    }
-    ul {
-        border: 2px solid black;
-        background-color: beige;
-        font-family: sans-serif;
-        display: flex;
-        flex-direction: column;
-        line-height: 2.3em;
-        padding-left: 0;
-        align-items: center;
-        
-    }
-    li {
-        list-style-type: none;
-        
-    }
+        ul {
+            border: 2px solid black;
+            background-color: beige;
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            line-height: 2.3em;
+            padding-left: 0;
+            align-items: center;
+            
+        }
+        li {
+            list-style-type: none;
+            
+        }
     </style>
     <script>
 
@@ -84,6 +85,17 @@
             save();
         }
 
+        function  deleteCompleted(){
+            // for ( let i = 0; i < todos.length; i++) {
+            //     if (todos[i].completed) {
+            //         todos.splice(i,1)
+            //         i--
+            //     }
+            // }
+            todos = todos.filter((item) => !item.completed)
+            refreshList();
+            save()
+        }
     </script>
 </body>
 </html>
