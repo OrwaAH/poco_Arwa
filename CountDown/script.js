@@ -27,7 +27,7 @@ function coffee() {
 
 function lunche() {
     showCount()
-    Difference_In_Time = 60 * 60 * 1000;
+    Difference_In_Time = 3600 * 1000;
 }
 
 function stopCount() {
@@ -55,7 +55,6 @@ function goCountown() {
     hours.innerText = hrs;
     minutes.innerText = min;
     seconds.innerText = s;
-    // console.log(day + hrs + min + s)
 
     if ((day + hrs + min + s) < 1) {
         clearInterval(countDowninterval);
