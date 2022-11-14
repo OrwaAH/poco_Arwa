@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <nav class="navContainer">
+        <a href="#" onclick="seconds20()">20 Seconds</a>
+        <a href="#" onclick="coffee()">Coffee Break</a>
+        <a href="#" onclick="lunche()">Lunche Break</a>
+        <a href="#" onclick="stopCount()">Stop</a>
+        <a href="#" onclick="resume()">Resume</a>
+        <a href="#" onclick="reset()">Reset</a>
+      </nav>
+      <h1>Time remaining for the Graduation</h1>
+      <div class="countdown-container countFinish"></div>
+      <div class="countdown-container countStart">
+        <div class="days-c">
+          <p class="big-text" id="days"></p>
+          <span>Days</span>
+        </div>
+        <div class="hours-c">
+          <p class="big-text" id="hours"></p>
+          <span>Hours</span>
+        </div>
+        <div class="minutes-c">
+          <p class="big-text" id="minutes"></p>
+          <span>Minutes</span>
+        </div>
+        <div class="seconds-c">
+          <p class="big-text" id="seconds"></p>
+          <span>Seconds</span>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
