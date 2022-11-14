@@ -1,5 +1,3 @@
-
-
 const days = document.getElementById('days')
 const hours = document.getElementById('hours')
 const minutes = document.getElementById('minutes')
@@ -48,8 +46,6 @@ function reset() {
 }
 
 function goCountown() {
-
-
     let sec = Difference_In_Time / 1000;
     let day = Math.floor(Difference_In_Time / (1000 * 3600 * 24));
     let hrs = Math.floor(sec / 3600) % 24;
@@ -59,7 +55,7 @@ function goCountown() {
     hours.innerText = hrs;
     minutes.innerText = min;
     seconds.innerText = s;
-    console.log(day + hrs + min + s)
+    // console.log(day + hrs + min + s)
 
     if ((day + hrs + min + s) < 1) {
         clearInterval(countDowninterval);
@@ -69,7 +65,9 @@ function goCountown() {
 
     Difference_In_Time -= 1000;
 }
+
 goCountown()
+
 countDowninterval = setInterval(goCountown, 1000)
 
 
